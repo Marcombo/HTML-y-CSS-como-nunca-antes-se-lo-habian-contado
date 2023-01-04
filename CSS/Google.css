@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+
+body {
+   font-family: sans-serif;
+   text-align: center;
+}
+
+a {
+   text-decoration: none;
+}
+
+.izquierda {
+   float: left;
+}
+
+.derecha {
+   float: right;
+}
+
+/**************************/
+/* Estilos de la cabecera */
+/**************************/
+
+.enlace_cabecera {
+   /* mismo alto que la imagen para quede centrada verticalmente */
+   line-height: 40px;
+   font-size: 14px;
+   color: black;
+}
+
+.enlace_cabecera_primero {
+   margin: 2px 10px 0px 18px;
+}
+
+.enlace_cabecera_segundo {
+   margin: 2px 0px 0px 10px;
+}
+
+.enlace_cabecera_pequeño {
+   margin: 2px 8px 0px 7px;
+   font-size: 13px;
+}
+
+.enlace_cabecera:hover {
+   text-decoration: underline;
+}
+
+.aplicaciones_de_Google {
+   /* el margen inferior es el que marca la separación con el logo de Google */
+   /* Esta imagen es la que está más abajo de la barra de navegación */
+   margin: 2px 6px 10px 11px;
+   height: 40px;
+   width: 40px;
+   background: url(../Imagenes/puntos.png);
+   /* Ajusta el tamaño de la imagen al del contenedor (enlace) */
+   background-size: cover;
+}
+
+.aplicaciones_de_Google:hover {
+   background: url(../Imagenes/puntos-hover.png);
+   background-size: cover;
+}
+
+.iniciar_sesion {
+   font-size: 15px;
+   color: white;
+   background-color: rgb(0, 0, 255);
+   padding: 9px 22px 10px 23px;
+   margin: 4px 10px 0px 7px;
+   border-radius: 5px;
+}
+
+.iniciar_sesion:hover {
+   background-color: rgb(0, 0, 200);
+}
+
+#logo_Google {
+   /* Sitúa la sección debajo de los enlaces flotantes */
+   clear: both;
+   /* centra la imagen */
+   display: block;
+   margin: auto;
+}
+
+/*****************************/
+/* Estilos delcuerpo central */
+/*****************************/
+
+.campo_busqueda {
+   /* Se muestra en modo bloque para que los botones queden debajo */
+   display: block;
+   margin: 26px auto 19px auto;
+   padding: 13px;
+   font-size: 16px;
+   border: solid 1px rgb(220, 220, 220);
+   border-radius: 30px;
+}
+
+.campo_busqueda:hover {
+   box-shadow: 0px 2px 3px 0px lightgrey;
+}
+
+.campo_busqueda:focus {
+   outline:none;
+   box-shadow: 0px 2px 3px 0px lightgrey;
+}
+
+.boton {
+   border: none;
+   background-color: rgb(249, 249, 249);
+   font-size: 14px;
+   margin: 10px 4px;
+   padding: 10px 17px;
+}
+
+.boton:hover {
+   border: solid 1px lightgray;
+   border-radius: 5px;
+   box-shadow: 0px 1px 2px 0px lightgrey;
+   margin: 8px 3px;
+}
+
+section p {
+   color: rgb(100, 100, 100);
+   font-size: 13px;
+   margin-top: 19px;
+}
+
+section a {
+   color: rgb(0, 0, 175);
+   font-size: 13px;
+   margin: 0px 3px;
+}
+
+section a:hover {
+   text-decoration: underline;
+}
+
+/****************************/
+/* Estilos del pie depágina */
+/****************************/
+
+footer {
+   position: fixed;
+   bottom: 0px;
+   left: 0px;
+   width: 100%;
+   background-color: rgb(240, 240, 240);
+}
+
+footer p {
+   /* Por defecto el texto queda centrado */
+   text-align: left;
+   color: rgb(100, 100, 100);
+   font-size: 15px;
+   margin: 15px 30px;
+}
+
+footer div {
+   border-top: 1px solid rgb(220, 220, 220);
+}
+
+.enlace_pie {
+   margin: 15px 15px 16px 15px;
+   font-size: 14px;
+   color: rgb(100, 100, 100);
+}
+
+.enlace_pie:hover {
+   text-decoration: underline;
+}
+
+.enlace_pie_primero {
+   margin-left: 35px;
+}
+
+.enlace_pie_ultimo {
+   margin-right: 35px;
+}
+
+.hoja {
+   height: 16px;
+   margin-top: 12px;
+}

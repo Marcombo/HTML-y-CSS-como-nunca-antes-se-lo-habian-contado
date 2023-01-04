@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+* {
+   font-family: Garamond;
+}
+
+/* Cabecera */
+header {
+   margin:20px;
+}
+header img{
+   width:100px;
+}
+header h1{
+   display: inline;
+   font-size: 80px;
+}
+
+/* Barra de navegación */
+nav {
+   margin: 20px 0px;
+}
+.opcion-navegacion {
+   text-decoration: none;
+   font-weight: bold;
+   color: white;
+   background-color: blue;
+   padding: 10px 20px;
+   margin: 0 10px;
+   border-radius: 10px;
+}
+.opcion-navegacion:hover {
+   background-color: rgb(0, 0, 200);
+}
+
+/* Contenido principal */
+section {
+   float: left;
+   box-sizing: border-box;
+   width: 70%;
+   background-color: white;
+   margin:10px;
+   padding: 0px 20px;
+   box-shadow: 2px 2px 5px 2px gray;
+   border-radius: 20px;
+}
+section img {
+   float: left;
+   width:200px;
+   margin-right: 10px;
+}
+section ul{
+   list-style-position: inside;
+}
+
+/*Contenido relacionado */
+aside {
+   float: left;
+   margin-left: 50px;
+}
+aside a{
+   font-size:20px;
+   text-decoration: none;
+}
+aside ul{
+   list-style-image: url(../Imagenes/estrella.ico);
+}
+
+/* Pie */
+footer {
+   clear: both;
+   padding: 10px;
+   text-align: center;
+   font-weight: bold;
+}

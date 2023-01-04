@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            div{
+                box-sizing: border-box;
+                padding:10px;
+                margin: 10px;
+                text-align: center;
+                border: solid;
+            }
+            #arriba, #abajo {
+                height:20vh;
+            }
+            #centro{
+                height:calc(60vh - 40px);
+                display: flex;
+                flex-direction: row; 
+            }
+            #centro-izquierdo, #centro-derecho{
+                width: 50%;
+            }
+            #centro-izquierdo-arriba, #centro-izquierdo-abajo{
+                height:20%;
+            }
+            #centro-izquierdo-centro{
+                height:calc(60% - 40px);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="arriba">Contenedor superior</div>
+        <div id="centro">
+            <div id="centro-izquierdo">
+                <div id="centro-izquierdo-arriba">Contenedor interno superior</div>
+                <div id="centro-izquierdo-centro">Contenedor interno central</div>
+                <div id="centro-izquierdo-abajo">Contenedor interno inferior</div>
+            </div>
+            <div id="centro-derecho">Contenedor interno derecho</div>
+        </div>
+        <div id="abajo">Contenedor inferior</div>
+    </body>   
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            #cursiva {
+                font-style: italic;
+            }
+            #negrita {
+                font-weight: bold;
+            }            
+            #subrayado {
+                text-decoration: underline;
+            }            
+            #tachado {
+                text-decoration: line-through;
+            }
+            #superindice {
+                vertical-align: super;
+                font-size: small;
+            }
+            #subindice {
+                vertical-align: sub;
+                font-size: small;
+            }
+            #marcado {
+                background-color: yellow;
+            }
+            #pequeño {
+                font-size: small;
+                line-height: 150%;
+                letter-spacing: 0.012em;
+            }
+        </style>
+    </head>
+    <body>
+        <p>
+            En este primer párrafo se encontrará un 
+            <span id="cursiva">texto en cursiva</span>.
+        </p>
+        <p>
+            Este otro tiene un 
+            <span id="negrita">texto en negrita</span> 
+            una palabra <span id="subrayado">subrayada</span> 
+            y otra <span id="tachado">tachada</span>.
+        </p>
+        <p>
+            El superíndice es útil para expresar potencias, 
+            como: 2<span id="superindice">2</span> = 4.
+        </p>
+        <p>
+            Y el subíndice para escribir la fórmula química 
+            del agua: H<span id="subindice">2</span>O.
+        </p>
+        <p>
+            La última palabra de este párrafo está 
+            <span id="marcado">marcada</span>.
+        </p>
+        <p id="pequeño">
+            &copy2022 Tomás Domínguez Mínguez
+        </p>
+    </body>   
+</html> 

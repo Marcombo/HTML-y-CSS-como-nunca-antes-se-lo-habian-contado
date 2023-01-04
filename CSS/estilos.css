@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+h1, h2 {
+    color: blue;
+}
+
+.fondo-amarillo h1 {
+    background-color: yellow;
+}

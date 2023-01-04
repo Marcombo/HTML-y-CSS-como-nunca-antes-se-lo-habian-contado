@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <style>
+    * {
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    div {
+      padding: 20px;
+      float: left;
+      width: 33%;
+      font-weight: bold;
+      font-size: large;
+    }
+
+    #opcion1 {
+      background-color: lightblue;
+    }
+
+    #opcion2 {
+      background-color: lightcoral;
+    }
+
+    #opcion3 {
+      background-color: lightgreen;
+    }
+
+    #texto2 {
+      display: none;
+    }
+
+    @media (max-width: 800px) {
+      #opcion1,
+      #opcion2,
+      #opcion3 {
+        float: none;
+      }
+
+      #texto1 {
+        display: none;
+      }
+
+      #texto2 {
+        display: block;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1 id="texto1">Menú horizontal</h1>
+  <h1 id="texto2">Menú vertical</h1>
+  <div id="opcion1">Opción 1</div>
+  <div id="opcion2">Opción 2</div>
+  <div id="opcion3">Opción 3</div>
+</body>

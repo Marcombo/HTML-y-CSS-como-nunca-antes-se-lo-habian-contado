@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+  
+        div {
+            position: absolute;
+            font-size: 25px;
+            background-color: blue;
+            color: white;
+            width: 50px;
+            line-height: 50px;
+            text-align: center;
+        }
+        #ne {
+            top: 0px;
+            right: 0px;
+        }
+        #sw {
+            bottom: 0px;
+        }
+        #se {
+            bottom: 0px;
+            right: 0px;
+        }
+        #n {
+            left: 50%;
+            transform: translate(-50%, 0%);
+        }
+        #s {
+            bottom: 0px;
+            left: 50%;
+            transform: translate(-50%, 0%);
+        }
+        #e {
+            right: 0px;
+            top: 50%;
+            transform: translate(0%, -50%);
+        }
+        #w {
+            top: 50%;
+            transform: translate(0%, -50%);
+        }
+        #c {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div>NW</div>
+    <div id="ne">NE</div>
+    <div id="sw">SW</div>
+    <div id="se">SE</div>
+    <div id="n">N</div>
+    <div id="s">S</div>
+    <div id="e">E</div>
+    <div id="w">W</div>
+    <div id="c">C</div>
+</body>
+</html>

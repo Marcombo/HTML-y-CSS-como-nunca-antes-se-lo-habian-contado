@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            body{
+                display: flex;
+                flex-direction: row;   
+            }
+            div{
+                display: inline;
+                box-sizing: border-box;
+                padding:10px;
+                margin: 10px;
+                border: solid;
+                text-align: center;
+            }
+            #izquierda, #derecha {
+                width:20%;
+            }
+            #centro{
+                width:calc(60% - 40px);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="izquierda">Contenedor izquierdo</div>
+        <div id="centro">Contenedor central</div>
+        <div id="derecha">Contenedor derecho</div>
+    </body>   
+</html>
